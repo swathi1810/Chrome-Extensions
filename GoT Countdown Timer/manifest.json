@@ -1,0 +1,27 @@
+{
+"manifest_version": 2,
+"version": "1.0",
+"name": "My GOT",
+"description": "A Sample app",
+"browser_action":
+{
+"default_icon": "images/world.png",
+"default_popup": "popup.html"
+},
+"content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "js": ["script.js"]
+    }
+  ],
+  "options_page": "",
+"icons":
+{
+"16": "images/world.png", 
+"48": "images/world.png",
+"128":"images/world.png"
+},
+"permissions": [
+    "notifications"
+  ]
+}
