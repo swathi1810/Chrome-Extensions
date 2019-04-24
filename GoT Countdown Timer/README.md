@@ -2,10 +2,8 @@
 I am a huge fan of Game of Thrones and I always had a mental calculation to estimate the time remaining for the next episode. I thought it'd be cool to
 create a chrome extension that gives you a countdown timer for the next episode.
 
-## `center` alignment example
-
 <p align="center">
-  <img width="460" height="300" src="https://github.com/thedhanawada/Chrome-Extensions/raw/master/GoT%20Countdown%20Timer/images/Print.png">
+  <img src="https://github.com/thedhanawada/Chrome-Extensions/raw/master/GoT%20Countdown%20Timer/images/Print.png">
 </p>
 
 
