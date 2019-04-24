@@ -23,6 +23,10 @@ chrome://extensions/
 3. Clicked on load unpacked and select the root file of manifest.json
 4. You will have the extension loaded. Click on the dragon icon on your chrome toolbar
 
+## Icons Attribution
+All the icons used in the project are from Icon Finder[a link](https://www.iconfinder.com/icons/4527371/avatar_character_dragon_game_of_series_thrones_icon)
+
+
 ## Contributing
 If you can contribute anything to this, it'd be great! 
 
