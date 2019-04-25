@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-       <title>Hello world </title>
-       <style>body {
-                  width:400px;
-                  height:300px;
-                  background: #dae2f8; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #dae2f8, #d6a4a4); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #dae2f8, #d6a4a4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-               }
-               </style>
+<title>Hello world </title>
+<style>body {
+width:400px;
+height:300px;
+background: #dae2f8; /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #dae2f8, #d6a4a4); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #dae2f8, #d6a4a4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+outline: none;
+}
+</style>
 </head>
 <body>
-            <p style="text-align:center"><center><img src="images/OTP.png" style="width: 50%; height: 50%"/></center>
-                  <img id="onAir" src="onair.jpeg"/> 
-            <center><input id="countdown" align="center"type="text" size="40" readOnly style="border:none;border-color: transparent;background: transparent
-            "></center>
-            <br><center>until show time</center>
-            </p>
-            
+<p style="text-align:center"><center><img src="images/OTP.png" style="width: 50%; height: 50%"/></center>
+<img id="onAir" src="onair.jpeg"/> 
+<center><input id="countdown" align="center"type="text" size="40" readOnly style="border:none;border-color: transparent;background: transparent"></center>
+<br><center>until show time</center>
+</p>          
 <script src="script.js"></script>
 </html>
