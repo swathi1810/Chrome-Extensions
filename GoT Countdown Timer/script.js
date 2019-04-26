@@ -1,7 +1,7 @@
 function counttoShow(){
     var A= [], x, d,  diff,cd=document.getElementById('countdown'),
     cdimg=document.getElementById('onAir'),
-    onair= new Date(Date.UTC(2019, 3, 29, 1)), now= new Date();
+    onair= new Date(Date.UTC(2019, 3, 29, 1)), now= new Date();cd.style.fontWeight = 'bold';
     while(onair<now) onair.setDate(onair.getDate()+7);
     diff= (onair-now);
     if(diff<3600000){
@@ -35,7 +35,7 @@ function counttoShow(){
 window.onload=function(){
     var cdtimer=setInterval(counttoShow,1000);
     document.body.ondblclick=function(){
-        if(cd.timer){
+        if(cdtimer){
             clearInterval(cdtimer);
             cdtimer=null;
         }
