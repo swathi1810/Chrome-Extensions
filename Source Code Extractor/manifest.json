@@ -1,8 +1,8 @@
 {
 "manifest_version": 2,
 "version": "1.0",
-"name": "Grab the Logo",
-"description": "Countdown Timer - The countdown timer is created which takes in a particular date and time and displays the time left for the particular date. ",
+"name": "Source Code Extractor",
+"description": "The source code extractor pulls up the source code of any HTML page that you are currently located at",
 "browser_action":
 {
 "default_icon": "images/world.png",
